@@ -1,0 +1,87 @@
+html ,body{
+  padding: 0px;
+  margin: 0px;
+}
+/* HEADER */
+#header{
+  background-color: rgb(116, 184, 127);
+
+}
+.logo{
+  width: 5%;
+}
+
+/*MAIN-SECTION */
+
+.img1{
+margin: 25px 180px 0px 150px;
+  width: 90%;
+}
+ h6{
+  text-align: left;
+  margin: 25px;
+  padding: 20px 0px 20px 20px;
+  background-color: rgb(116, 184, 127);
+  color: white;
+
+}
+span{
+color: white;
+text-transform: uppercase;
+}
+
+/* ASIDE */
+
+.img2{
+  width:87%;
+  margin-left: 25px;
+  margin-top: -20px;
+}
+
+#fb {
+  background-color: rgb(66, 103, 178);
+
+}
+#twitter{
+  background-color: rgb(26, 148, 224);
+}
+#insta {
+  background-color: rgb(224, 48, 108);
+}
+#num {
+  opacity: 0.7;
+  float: right;
+  padding-right: 5px;
+}
+a{
+  text-decoration: none;
+}
+.dropdown-item{
+  color: white;
+}
+#content {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: .9em;
+  padding: 10px 10px 10px 0px;
+  margin-left: 25px;
+}
+#font{
+  font-size: 1.25 rem;
+}
+#box-d {
+  position: relative;
+  color: black;
+  text-transform: none;
+  font-size: 1.2rem;
+}
+#box-t {
+  position: relative;
+  border: black;
+  color: black;
+  text-transform: none;
+  font-size: 1rem;
+  opacity: 0.5;
+  margin-top: 1300px;
+}
