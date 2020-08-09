@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather-app</title>
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="main-container">
+
+    <div class="location-and-date">
+      <h1 class="location-and-date__location">London, UK</h1>
+      <select class="" name="" onchange="getWeatherData(this)">
+        <option value="2295402">Ahmedabad</option>
+        <option value="28743736">Delhi</option>
+        <option value="12586539">Mumbai</option>
+        <option value="2295414">Hyderabad</option>
+        <option value="2295420">Banglore</option>
+      </select>
+      <div>Sunday 4th August</div>
+    </div>
+
+    <div class="current-temperature">
+      <div class="current-temperature__icon-container">
+        <img src="mostly-sunny.svg" class="current-temperature__icon" alt="">
+      </div>
+      <div class="current-temperature__content-container">
+        <div id="current-temperature__value">21°</div>
+        <div class="current-temperature__summary">Mostly Sunny</div>
+      </div>
+    </div>
+
+    <div class="current-stats">
+      <div>
+        <div class="current-stats__value">23&deg;</div>
+        <div class="current-stats__label">High</div>
+        <div class="current-stats__value">14&deg;</div>
+        <div class="current-stats__label">Low</div>
+      </div>
+      <div>
+        <div class="current-stats__value">7mph</div>
+        <div class="current-stats__label">Wind</div>
+        <div class="current-stats__value">0%</div>
+        <div class="current-stats__label">Rain</div>
+      </div>
+      <div>
+        <div class="current-stats__value">05:27</div>
+        <div class="current-stats__label">Sunrise</div>
+        <div class="current-stats__value">20:57</div>
+        <div class="current-stats__label">Sunset</div>
+      </div>
+    </div>
+
+
+
+  </main>
+</body>
+
+</html>
