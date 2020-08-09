@@ -13,23 +13,23 @@
                 <form id="registrationForm" onsubmit="Register()">
                   <div class="form-group row">
                     <div  id="label1"  class="col">
-                      <input id="username" type="text" class="form-control" onblur="validate()">
+                      <input id="username" type="text" class="form-control" onblur="validate()" onkeyup="disable(this.value)">
                        <span id="popup"></span>
                     </div>
                   </div>
                   <div class="form-group row">
                     <div id="label2" class="col">
-                      <input id="password" type="password" class="form-control" >
+                      <input id="password" type="password" class="form-control" onkeyup="disable(this.value)">
                     </div>
                   </div>
                   <div class="form-group row">
                     <div id="label3" class="col">
-                      <input id="confirmPassword" type="password" class="form-control" onblur="validatePassword()">
+                      <input id="confirmPassword" type="password" class="form-control" onblur="validatePassword()" onchange="disable(this.value)">
                     </div>
                   </div>
                   <div class="row">
                     <div  id="register" onsubmit="Register()" class="col">
-                        <button id="btn" class="btn btn-primary btn-block">
+                        <button id="register-btn" class="btn btn-primary btn-block">
                           Register
                       </button>
                     </div>

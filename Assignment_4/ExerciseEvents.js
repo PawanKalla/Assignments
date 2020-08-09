@@ -54,17 +54,17 @@ function validatePassword() {
   -----------
 Ensure the ‘Register’ button is disabled until the user has entered valid data into all the input fields.  Once they have, the registration button should then be enabled.
 */
-
+function disable(val){
 var xy = document.querySelector("#username").value;
 var x = document.querySelector("#password").value;
 var y = document.querySelector("#confirmPassword").value;
-if (xy !== " " || x !== " "){
-  document.getElementsById("btn").disabled = false;
+if (xy.length>0 && x.length>0 && y.length>0){
+  document.getElementsById("register-btn").disabled = false;
 }
 else{
-  document.getElementsById("btn").disabled = true;
+  document.getElementsById("register-btn").disabled = true;
 }
-
+}
 /*
   Exercise 05
   -----------
